@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(244, 231, 249);
+    font-family: Arial, sans-serif;
+    padding: 0;
+}
+h2 {
+    color: blueviolet;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 600px;
+    text-align: center;
+}
+
+header{
+    text-align: center;
+    padding: 50px 0;
+    margin: 0;
+}
+
+header h1 {
+    font-size: 50px;
+    font-weight: 800px;
+}
+
+header h1 span {
+    color: blueviolet;
+}
+
+header p{
+    font-size: 20px;
+    color: rgb(103, 102, 102);
+}
+
+header button {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: blueviolet;
+}
+
+.About-containt {
+    text-align: center;
+    padding-bottom:30px ;
+}
+
+.about-contenaire {
+    font-size: 20px;
+}
+
+.service ul {
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+.horaire {
+    padding: 20px 0;
+}
+
+.horaire p {
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+.horaire span {
+    color: darkviolet;
+    font-weight: bold;
+}
+
+.tableau {
+    padding: 30px 0;
+}
+table {
+    border-collapse: collapse;
+    width: 500px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+th {
+    background-color: rgb(179, 32, 243);
+}
+.Contact {
+    margin-bottom: 30px;
+}
+
+.Contact p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500px;
+}
+footer p {
+    text-align: center;
+    font-size: 20px;
+    color: rgb(119, 78, 142);
+}
+
+@media (max-width: 600px){
+    h2 {
+        font-size: 25px;
+    }
+    .horaire p {
+        font-size: 15px;
+    }
+    .service ul {
+        font-size: 15px;
+    }
+    table {
+        font-size: 15px;
+        width: 300px;
+    }
+    .Contact p{
+        font-size: 15px;
+    }
+}
